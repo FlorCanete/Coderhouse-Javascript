@@ -1,0 +1,42 @@
+.fa-shopping-cart{
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.buttonCart
+{
+    border: none;
+}
+.navbar,
+.container.mt-3,
+.modal-header
+{
+    background-color: #F2F2F4;
+}
+.fa-shopping-cart{
+    color: #42387c;
+}
+.items{
+    background-color:#E6E6E8;
+    width: 300px;
+    height: 300px;
+}
+.items .item img
+{
+    object-fit: contain;
+}
+#cart-items
+{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#total{
+    font-weight: bold;
+}
